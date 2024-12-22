@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_AI_Services", "..\", "{A7759799-0299-460C-9E8B-4B90276CC243}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53135"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Azure_AI_Services\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53135\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53135"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Azure_AI_Services\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53135\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53135"
+		SlnRelativePath = "..\..\Azure_AI_Services\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{27C8BBAF-9DAD-495C-8A8E-5A37D0C47EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rest_client", "01-getting-started\C-Sharp\rest-client\rest_client.csproj", "{A844FB62-7A2A-438E-8947-BF5DBF480257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sdk-client", "01-getting-started\C-Sharp\sdk-client\sdk-client.csproj", "{E540A6DD-795E-4782-8E71-121FD379235A}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Python", "01-getting-started\Python\", "{6426CFC8-1230-44D2-8DF2-83077AEEE642}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53343"
+		Debug.AspNetCompiler.PhysicalPath = "01-getting-started\Python\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53343\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53343"
+		Release.AspNetCompiler.PhysicalPath = "01-getting-started\Python\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53343\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53343"
+		SlnRelativePath = "01-getting-started\Python\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7759799-0299-460C-9E8B-4B90276CC243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7759799-0299-460C-9E8B-4B90276CC243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7759799-0299-460C-9E8B-4B90276CC243}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7759799-0299-460C-9E8B-4B90276CC243}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A844FB62-7A2A-438E-8947-BF5DBF480257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A844FB62-7A2A-438E-8947-BF5DBF480257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A844FB62-7A2A-438E-8947-BF5DBF480257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A844FB62-7A2A-438E-8947-BF5DBF480257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E540A6DD-795E-4782-8E71-121FD379235A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E540A6DD-795E-4782-8E71-121FD379235A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E540A6DD-795E-4782-8E71-121FD379235A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E540A6DD-795E-4782-8E71-121FD379235A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6426CFC8-1230-44D2-8DF2-83077AEEE642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6426CFC8-1230-44D2-8DF2-83077AEEE642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6426CFC8-1230-44D2-8DF2-83077AEEE642}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6426CFC8-1230-44D2-8DF2-83077AEEE642}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A844FB62-7A2A-438E-8947-BF5DBF480257} = {27C8BBAF-9DAD-495C-8A8E-5A37D0C47EE1}
+		{E540A6DD-795E-4782-8E71-121FD379235A} = {27C8BBAF-9DAD-495C-8A8E-5A37D0C47EE1}
+		{6426CFC8-1230-44D2-8DF2-83077AEEE642} = {27C8BBAF-9DAD-495C-8A8E-5A37D0C47EE1}
+	EndGlobalSection
+EndGlobal
