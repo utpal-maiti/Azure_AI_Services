@@ -24,7 +24,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_AI_Services", "..\", 
 		SlnRelativePath = "..\..\Azure_AI_Services\"
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{27C8BBAF-9DAD-495C-8A8E-5A37D0C47EE1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-getting-started", "01-getting-started", "{27C8BBAF-9DAD-495C-8A8E-5A37D0C47EE1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rest_client", "01-getting-started\C-Sharp\rest-client\rest_client.csproj", "{A844FB62-7A2A-438E-8947-BF5DBF480257}"
 EndProject
@@ -51,6 +51,31 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Python", "01-getting-starte
 		SlnRelativePath = "01-getting-started\Python\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-cognitive-security", "02-cognitive-security", "{72771474-C66A-43A1-AF50-4B9F2C75E2CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keyvault_client", "02-cognitive-security\C-Sharp\keyvault_client\keyvault_client.csproj", "{DC46C005-86A2-46C2-9381-5A40AF27775B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Python(1)", "02-cognitive-security\Python\", "{860DFA57-B226-4B1E-9BA7-F6750228336E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53447"
+		Debug.AspNetCompiler.PhysicalPath = "02-cognitive-security\Python\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53447\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53447"
+		Release.AspNetCompiler.PhysicalPath = "02-cognitive-security\Python\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53447\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53447"
+		SlnRelativePath = "02-cognitive-security\Python\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +98,14 @@ Global
 		{6426CFC8-1230-44D2-8DF2-83077AEEE642}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6426CFC8-1230-44D2-8DF2-83077AEEE642}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{6426CFC8-1230-44D2-8DF2-83077AEEE642}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DC46C005-86A2-46C2-9381-5A40AF27775B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC46C005-86A2-46C2-9381-5A40AF27775B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC46C005-86A2-46C2-9381-5A40AF27775B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC46C005-86A2-46C2-9381-5A40AF27775B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860DFA57-B226-4B1E-9BA7-F6750228336E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860DFA57-B226-4B1E-9BA7-F6750228336E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860DFA57-B226-4B1E-9BA7-F6750228336E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{860DFA57-B226-4B1E-9BA7-F6750228336E}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,5 +114,7 @@ Global
 		{A844FB62-7A2A-438E-8947-BF5DBF480257} = {27C8BBAF-9DAD-495C-8A8E-5A37D0C47EE1}
 		{E540A6DD-795E-4782-8E71-121FD379235A} = {27C8BBAF-9DAD-495C-8A8E-5A37D0C47EE1}
 		{6426CFC8-1230-44D2-8DF2-83077AEEE642} = {27C8BBAF-9DAD-495C-8A8E-5A37D0C47EE1}
+		{DC46C005-86A2-46C2-9381-5A40AF27775B} = {72771474-C66A-43A1-AF50-4B9F2C75E2CB}
+		{860DFA57-B226-4B1E-9BA7-F6750228336E} = {72771474-C66A-43A1-AF50-4B9F2C75E2CB}
 	EndGlobalSection
 EndGlobal
