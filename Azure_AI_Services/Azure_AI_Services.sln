@@ -76,6 +76,52 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Python(1)", "02-cognitive-s
 		SlnRelativePath = "02-cognitive-security\Python\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-monitor", "03-monitor", "{C6B669EF-CB50-476C-B788-3525D3CABB20}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "03-monitor", "03-monitor\", "{07515B3A-1357-41DB-93AF-80459CCE92CF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54027"
+		Debug.AspNetCompiler.PhysicalPath = "03-monitor\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54027\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54027"
+		Release.AspNetCompiler.PhysicalPath = "03-monitor\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54027\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54027"
+		SlnRelativePath = "03-monitor\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-containers", "04-containers", "{0B1A08D8-7DFA-4880-92B6-6F4ED20D0CE5}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "04-containers", "04-containers\", "{84011969-1D4A-4452-90A2-A98E0BC559C1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54078"
+		Debug.AspNetCompiler.PhysicalPath = "04-containers\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54078\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54078"
+		Release.AspNetCompiler.PhysicalPath = "04-containers\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54078\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54078"
+		SlnRelativePath = "04-containers\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +152,14 @@ Global
 		{860DFA57-B226-4B1E-9BA7-F6750228336E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{860DFA57-B226-4B1E-9BA7-F6750228336E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{860DFA57-B226-4B1E-9BA7-F6750228336E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{07515B3A-1357-41DB-93AF-80459CCE92CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07515B3A-1357-41DB-93AF-80459CCE92CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07515B3A-1357-41DB-93AF-80459CCE92CF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{07515B3A-1357-41DB-93AF-80459CCE92CF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{84011969-1D4A-4452-90A2-A98E0BC559C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84011969-1D4A-4452-90A2-A98E0BC559C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84011969-1D4A-4452-90A2-A98E0BC559C1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{84011969-1D4A-4452-90A2-A98E0BC559C1}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,5 +170,7 @@ Global
 		{6426CFC8-1230-44D2-8DF2-83077AEEE642} = {27C8BBAF-9DAD-495C-8A8E-5A37D0C47EE1}
 		{DC46C005-86A2-46C2-9381-5A40AF27775B} = {72771474-C66A-43A1-AF50-4B9F2C75E2CB}
 		{860DFA57-B226-4B1E-9BA7-F6750228336E} = {72771474-C66A-43A1-AF50-4B9F2C75E2CB}
+		{07515B3A-1357-41DB-93AF-80459CCE92CF} = {C6B669EF-CB50-476C-B788-3525D3CABB20}
+		{84011969-1D4A-4452-90A2-A98E0BC559C1} = {0B1A08D8-7DFA-4880-92B6-6F4ED20D0CE5}
 	EndGlobalSection
 EndGlobal
