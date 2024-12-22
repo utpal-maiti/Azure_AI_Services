@@ -197,6 +197,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure AI Speech", "..\Azure
 		SlnRelativePath = "..\Azure AI Speech\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "translator", "..\Azure AI Speech\08-speech-translation\C-Sharp\translator\translator.csproj", "{3058EB44-666E-487E-9CCF-81FE0EE69D1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -259,6 +261,10 @@ Global
 		{DF5414D8-4CCB-45F6-AB9D-C20C32172231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF5414D8-4CCB-45F6-AB9D-C20C32172231}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{DF5414D8-4CCB-45F6-AB9D-C20C32172231}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3058EB44-666E-487E-9CCF-81FE0EE69D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3058EB44-666E-487E-9CCF-81FE0EE69D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3058EB44-666E-487E-9CCF-81FE0EE69D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3058EB44-666E-487E-9CCF-81FE0EE69D1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -277,5 +283,6 @@ Global
 		{3AC3DD2A-D3AE-4FDE-BB8C-00DF7679BAB8} = {C9EC2738-399C-44E2-9720-51B4367E780F}
 		{BDFD7D95-8846-4F51-9F8C-6DAA02086D37} = {FF54E938-2394-4759-88F4-F035AC75E23F}
 		{DF5414D8-4CCB-45F6-AB9D-C20C32172231} = {FF54E938-2394-4759-88F4-F035AC75E23F}
+		{3058EB44-666E-487E-9CCF-81FE0EE69D1C} = {FF54E938-2394-4759-88F4-F035AC75E23F}
 	EndGlobalSection
 EndGlobal
