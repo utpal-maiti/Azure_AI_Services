@@ -6,6 +6,7 @@
 - [04-containers](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/04-use-a-container.html/)
 - 
 - [05-analyze-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/05-analyze-text.html/)
+- [06-translate-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/06-translate-text.html/)
 
 Azure AI Services offer a wide range of tools and capabilities to help developers and organizations build intelligent applications. Here are some of the key services available:
 
