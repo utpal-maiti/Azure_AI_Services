@@ -122,6 +122,31 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "04-containers", "04-contain
 		SlnRelativePath = "04-containers\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure AI Language service", "Azure AI Language service", "{DE853FC0-3745-48ED-9CCA-70F8126C69DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "text-analysis", "..\Azure AI Language service\05-analyze-text\C-Sharp\text-analysis\text-analysis.csproj", "{4C0C8ED8-9649-48B8-A4DB-3851A0CD96A7}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure AI Language service", "..\Azure AI Language service\", "{693D2A8F-DAB3-48E8-84B6-4721357FBFBE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54181"
+		Debug.AspNetCompiler.PhysicalPath = "..\Azure AI Language service\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54181\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54181"
+		Release.AspNetCompiler.PhysicalPath = "..\Azure AI Language service\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54181\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54181"
+		SlnRelativePath = "..\Azure AI Language service\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -160,6 +185,14 @@ Global
 		{84011969-1D4A-4452-90A2-A98E0BC559C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84011969-1D4A-4452-90A2-A98E0BC559C1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{84011969-1D4A-4452-90A2-A98E0BC559C1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4C0C8ED8-9649-48B8-A4DB-3851A0CD96A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0C8ED8-9649-48B8-A4DB-3851A0CD96A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0C8ED8-9649-48B8-A4DB-3851A0CD96A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0C8ED8-9649-48B8-A4DB-3851A0CD96A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693D2A8F-DAB3-48E8-84B6-4721357FBFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693D2A8F-DAB3-48E8-84B6-4721357FBFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693D2A8F-DAB3-48E8-84B6-4721357FBFBE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{693D2A8F-DAB3-48E8-84B6-4721357FBFBE}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,5 +205,7 @@ Global
 		{860DFA57-B226-4B1E-9BA7-F6750228336E} = {72771474-C66A-43A1-AF50-4B9F2C75E2CB}
 		{07515B3A-1357-41DB-93AF-80459CCE92CF} = {C6B669EF-CB50-476C-B788-3525D3CABB20}
 		{84011969-1D4A-4452-90A2-A98E0BC559C1} = {0B1A08D8-7DFA-4880-92B6-6F4ED20D0CE5}
+		{4C0C8ED8-9649-48B8-A4DB-3851A0CD96A7} = {DE853FC0-3745-48ED-9CCA-70F8126C69DA}
+		{693D2A8F-DAB3-48E8-84B6-4721357FBFBE} = {DE853FC0-3745-48ED-9CCA-70F8126C69DA}
 	EndGlobalSection
 EndGlobal

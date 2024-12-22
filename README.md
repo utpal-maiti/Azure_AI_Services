@@ -4,6 +4,8 @@
 - [02-cognitive-security](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/01-get-started-cognitive-services.html/)
 - [03-monitor](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/03-monitor-cognitive-services.html/)
 - [04-containers](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/04-use-a-container.html/)
+- 
+- [05-analyze-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/05-analyze-text.html/)
 
 Azure AI Services offer a wide range of tools and capabilities to help developers and organizations build intelligent applications. Here are some of the key services available:
 
