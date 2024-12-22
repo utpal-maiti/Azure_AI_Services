@@ -1,14 +1,18 @@
 ## Azure AI Services
-
+**Azure AI Service**
 - [01-getting-started](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/01-get-started-cognitive-services.html/)
 - [02-cognitive-security](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/01-get-started-cognitive-services.html/)
 - [03-monitor](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/03-monitor-cognitive-services.html/)
 - [04-containers](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/04-use-a-container.html/)
-- 
+- **Azure AI Translator**
 - [05-analyze-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/05-analyze-text.html/)
-- [06-translate-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/06-translate-text.html/)
+- [09-language-app](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/08-translate-speech.html/)
+- [10b-clu-client-(preview)](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/10b-language-understanding-client-(preview).html/)
+**Azure AI Speech**
+--[06-translate-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/06-translate-text.html/)
 - [07-speech](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/07-speech.html/)
 - [08-translate-speech](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/08-translate-speech.html/)
+- 
 
 Azure AI Services offer a wide range of tools and capabilities to help developers and organizations build intelligent applications. Here are some of the key services available:
 

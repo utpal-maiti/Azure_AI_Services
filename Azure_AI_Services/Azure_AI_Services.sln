@@ -199,6 +199,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure AI Speech", "..\Azure
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "translator", "..\Azure AI Speech\08-speech-translation\C-Sharp\translator\translator.csproj", "{3058EB44-666E-487E-9CCF-81FE0EE69D1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clock_client", "..\Azure AI Language service\10b-clu-client-(preview)\C-Sharp\clock-client\clock_client.csproj", "{88D6FA6C-B4BE-4507-85CC-86A677CEDF5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -265,6 +267,10 @@ Global
 		{3058EB44-666E-487E-9CCF-81FE0EE69D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3058EB44-666E-487E-9CCF-81FE0EE69D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3058EB44-666E-487E-9CCF-81FE0EE69D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D6FA6C-B4BE-4507-85CC-86A677CEDF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D6FA6C-B4BE-4507-85CC-86A677CEDF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D6FA6C-B4BE-4507-85CC-86A677CEDF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D6FA6C-B4BE-4507-85CC-86A677CEDF5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -284,5 +290,6 @@ Global
 		{BDFD7D95-8846-4F51-9F8C-6DAA02086D37} = {FF54E938-2394-4759-88F4-F035AC75E23F}
 		{DF5414D8-4CCB-45F6-AB9D-C20C32172231} = {FF54E938-2394-4759-88F4-F035AC75E23F}
 		{3058EB44-666E-487E-9CCF-81FE0EE69D1C} = {FF54E938-2394-4759-88F4-F035AC75E23F}
+		{88D6FA6C-B4BE-4507-85CC-86A677CEDF5D} = {DE853FC0-3745-48ED-9CCA-70F8126C69DA}
 	EndGlobalSection
 EndGlobal
