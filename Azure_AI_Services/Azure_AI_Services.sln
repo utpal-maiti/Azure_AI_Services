@@ -203,6 +203,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clock_client", "..\Azure AI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "speaking_clock_client", "..\Azure AI Speech\11-luis-speech\C-Sharp\speaking-clock-client\speaking_clock_client.csproj", "{820E4C0D-27A5-47DF-BD32-79E7E0646157}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AI Bot Service", "AI Bot Service", "{3153F979-91AC-40C2-924A-BBB85930F491}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Al_Bot_Service", "..\Al_Bot_Service\", "{7535C756-75A1-4327-BEC6-DE5F511432E6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59925"
+		Debug.AspNetCompiler.PhysicalPath = "..\Al_Bot_Service\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59925\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59925"
+		Release.AspNetCompiler.PhysicalPath = "..\Al_Bot_Service\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59925\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59925"
+		SlnRelativePath = "..\Al_Bot_Service\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -277,6 +300,10 @@ Global
 		{820E4C0D-27A5-47DF-BD32-79E7E0646157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820E4C0D-27A5-47DF-BD32-79E7E0646157}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{820E4C0D-27A5-47DF-BD32-79E7E0646157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7535C756-75A1-4327-BEC6-DE5F511432E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7535C756-75A1-4327-BEC6-DE5F511432E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7535C756-75A1-4327-BEC6-DE5F511432E6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7535C756-75A1-4327-BEC6-DE5F511432E6}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -298,5 +325,6 @@ Global
 		{3058EB44-666E-487E-9CCF-81FE0EE69D1C} = {FF54E938-2394-4759-88F4-F035AC75E23F}
 		{88D6FA6C-B4BE-4507-85CC-86A677CEDF5D} = {DE853FC0-3745-48ED-9CCA-70F8126C69DA}
 		{820E4C0D-27A5-47DF-BD32-79E7E0646157} = {FF54E938-2394-4759-88F4-F035AC75E23F}
+		{7535C756-75A1-4327-BEC6-DE5F511432E6} = {3153F979-91AC-40C2-924A-BBB85930F491}
 	EndGlobalSection
 EndGlobal
