@@ -274,6 +274,52 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure AI Video Indexer", ".
 		SlnRelativePath = "..\Azure AI Video Indexer\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure AI Document Intelligence", "Azure AI Document Intelligence", "{D4D9719A-7364-4078-BFE1-3DD32DCE0FED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure AI Search", "Azure AI Search", "{90FE2533-0D5F-42C6-A7F2-1ED0A6308DD8}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure AI Search", "..\Azure AI Search\", "{E3F94C3D-E566-4CF2-B4E7-4CDDF8AD2CD1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61432"
+		Debug.AspNetCompiler.PhysicalPath = "..\Azure AI Search\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61432\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61432"
+		Release.AspNetCompiler.PhysicalPath = "..\Azure AI Search\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61432\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61432"
+		SlnRelativePath = "..\Azure AI Search\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure AI Document Intelligence", "..\Azure AI Document Intelligence\", "{AD15A9BF-C23E-4296-B212-940EE01D852C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61447"
+		Debug.AspNetCompiler.PhysicalPath = "..\Azure AI Document Intelligence\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61447\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61447"
+		Release.AspNetCompiler.PhysicalPath = "..\Azure AI Document Intelligence\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61447\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61447"
+		SlnRelativePath = "..\Azure AI Document Intelligence\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -364,6 +410,14 @@ Global
 		{E32B2206-579A-4F0E-A05C-34C1306A6204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E32B2206-579A-4F0E-A05C-34C1306A6204}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{E32B2206-579A-4F0E-A05C-34C1306A6204}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E3F94C3D-E566-4CF2-B4E7-4CDDF8AD2CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F94C3D-E566-4CF2-B4E7-4CDDF8AD2CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F94C3D-E566-4CF2-B4E7-4CDDF8AD2CD1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F94C3D-E566-4CF2-B4E7-4CDDF8AD2CD1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AD15A9BF-C23E-4296-B212-940EE01D852C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD15A9BF-C23E-4296-B212-940EE01D852C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD15A9BF-C23E-4296-B212-940EE01D852C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD15A9BF-C23E-4296-B212-940EE01D852C}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -389,5 +443,7 @@ Global
 		{FBDCA333-B6E0-469C-9146-5E58F33B09CE} = {4ECC1DF3-D2C1-493E-BE54-BB09B47E7AFF}
 		{D422EE5A-BBFC-48BF-BC8A-21A4AA655890} = {4ECC1DF3-D2C1-493E-BE54-BB09B47E7AFF}
 		{E32B2206-579A-4F0E-A05C-34C1306A6204} = {9ED21121-CC71-45EB-8D64-2F5CB5561B71}
+		{E3F94C3D-E566-4CF2-B4E7-4CDDF8AD2CD1} = {90FE2533-0D5F-42C6-A7F2-1ED0A6308DD8}
+		{AD15A9BF-C23E-4296-B212-940EE01D852C} = {D4D9719A-7364-4078-BFE1-3DD32DCE0FED}
 	EndGlobalSection
 EndGlobal
