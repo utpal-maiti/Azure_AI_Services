@@ -9,7 +9,7 @@
 - [09-language-app](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/08-translate-speech.html/)
 - [10b-clu-client-(preview)](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/10b-language-understanding-client-(preview).html/)
 - **Azure AI Speech**
---[06-translate-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/06-translate-text.html/)
+- [06-translate-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/06-translate-text.html/)
 - [07-speech](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/07-speech.html/)
 - [08-translate-speech](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/08-translate-speech.html/)
 - [11-language-understanding-speech](https://github.com/utpal-maiti/Azure_AI_Services/blob/main/Azure%20AI%20Speech/11-luis-speech/11-language-understanding-speech.md/)
