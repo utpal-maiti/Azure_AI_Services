@@ -14,6 +14,13 @@
 - [08-translate-speech](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/08-translate-speech.html/)
 - [11-language-understanding-speech(11-luis-speech)](./Azure%20AI%20Speech/11-luis-speech/11-language-understanding-speech.md)
 - [12-qna-maker](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/12-qna-maker.html)
+- **Azure AI Bot Service**
+- [13-bot-framework](/)
+- [14-bot-composer](/)
+- **Azure AI Vision**
+- [15-computer-vision](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/15-computer-vision.html/)
+- **Azure AI Video Indexer**
+- [16-video-indexer](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/16-video-indexer.html)
 
 
 Azure AI Services offer a wide range of tools and capabilities to help developers and organizations build intelligent applications. Here are some of the key services available:
