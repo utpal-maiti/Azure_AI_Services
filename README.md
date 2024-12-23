@@ -8,7 +8,7 @@
 - [05-analyze-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/05-analyze-text.html/)
 - [09-language-app](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/08-translate-speech.html/)
 - [10b-clu-client-(preview)](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/10b-language-understanding-client-(preview).html/)
-**Azure AI Speech**
+- **Azure AI Speech**
 --[06-translate-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/06-translate-text.html/)
 - [07-speech](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/07-speech.html/)
 - [08-translate-speech](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/08-translate-speech.html/)
