@@ -12,8 +12,8 @@
 - [06-translate-text](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/06-translate-text.html/)
 - [07-speech](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/07-speech.html/)
 - [08-translate-speech](https://microsoftlearning.github.io/AI-102-AIEngineer/Instructions/08-translate-speech.html/)
-- [11-language-understanding-speech(11-luis-speech)](https://github.com/utpal-maiti/Azure_AI_Services/blob/main/Azure%20AI%20Speech/11-luis-speech/11-language-understanding-speech.md/)
-- 
+- [11-language-understanding-speech(11-luis-speech)](../Azure%20AI%20Speech/11-luis-speech/11-language-understanding-speech.md)
+
 
 Azure AI Services offer a wide range of tools and capabilities to help developers and organizations build intelligent applications. Here are some of the key services available:
 
